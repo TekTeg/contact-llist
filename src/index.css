@@ -1,8 +1,28 @@
 body{
-  background-color: bisque;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkgray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:brown;
 }
 .root{
   display: flexbox;
   align-items: center;
+}
+button{
+  background-color:bisque;
+  font-size: 2cap;
+  border: 2px solid brown;
+  border-radius: 8px;
+  width:300px;
+  height: 50px;
+}
+ul{
+  list-style: none;
+  font-size: large;
+}
+li{
+  font-size: 2cap;
+  margin-top: 10px;
+}
+#user-name{
+  color:rgb(19, 61, 124)
 }
